@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Cambria;
+    min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  }
+  
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  height: 50px;
+}
+
+.container
+{
+    background-color: blue;
+   
+}
+.footer {
+    background-color: green;
+
+  position: absolute;
+
+left: 0;
+
+right: 0;
+
+bottom: 0
+}
+.search-bar {
+    display: flex;
+    flex-direction: row;
+}
